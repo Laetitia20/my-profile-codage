@@ -10,9 +10,10 @@ h2 {
     font-weight: bold;
 }
 body {
-	background-image: url(images/fond4.png);
+	background-image: url(images/fond4.jpg);
 	background-size: cover;
 	text-align: center;
+	margin-left: 50px;
 }
 .avatar {
 	height: 150px;
@@ -44,6 +45,15 @@ li a {
 p a {
 	color : #5babb9;
 	text-decoration : none;
+}
+
+.sidebar{
+	position: fixed;
+	width: 50px;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	color: red;
 }
  .container .whitecontainer {
 	margin: 50px;
